@@ -29,7 +29,6 @@
 /* Begin PBXFileReference section */
 		44ABB44D1843E9DE00B7983A /* libMMDrawerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMMDrawerController.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		44ABB4501843E9DE00B7983A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		44ABB45E1843E9DE00B7983A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		44ABB4611843E9DE00B7983A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		44ABB4771843EA1C00B7983A /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerBarButtonItem.h; path = ../../ext/MMDrawerController/MMDrawerController/MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
 		44ABB4781843EA1C00B7983A /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerBarButtonItem.m; path = ../../ext/MMDrawerController/MMDrawerController/MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
@@ -75,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				44ABB4501843E9DE00B7983A /* Foundation.framework */,
-				44ABB45E1843E9DE00B7983A /* XCTest.framework */,
 				44ABB4611843E9DE00B7983A /* UIKit.framework */,
 			);
 			name = Frameworks;
