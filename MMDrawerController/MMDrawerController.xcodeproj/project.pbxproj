@@ -26,8 +26,6 @@
 		44ABB4601843E9DE00B7983A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44ABB4501843E9DE00B7983A /* Foundation.framework */; };
 		44ABB4621843E9DE00B7983A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44ABB4611843E9DE00B7983A /* UIKit.framework */; };
 		44ABB4651843E9DE00B7983A /* libMMDrawerController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44ABB44D1843E9DE00B7983A /* libMMDrawerController.a */; };
-		44ABB46B1843E9DE00B7983A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44ABB4691843E9DE00B7983A /* InfoPlist.strings */; };
-		44ABB46D1843E9DE00B7983A /* MMDrawerControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44ABB46C1843E9DE00B7983A /* MMDrawerControllerTests.m */; };
 		44ABB4801843EA1C00B7983A /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 44ABB4781843EA1C00B7983A /* MMDrawerBarButtonItem.m */; };
 		44ABB4811843EA1C00B7983A /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44ABB47A1843EA1C00B7983A /* MMDrawerController.m */; };
 		44ABB4821843EA1C00B7983A /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 44ABB47D1843EA1C00B7983A /* MMDrawerVisualState.m */; };
@@ -63,9 +61,6 @@
 		44ABB45D1843E9DE00B7983A /* MMDrawerControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMDrawerControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44ABB45E1843E9DE00B7983A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		44ABB4611843E9DE00B7983A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		44ABB4681843E9DE00B7983A /* MMDrawerControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MMDrawerControllerTests-Info.plist"; sourceTree = "<group>"; };
-		44ABB46A1843E9DE00B7983A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		44ABB46C1843E9DE00B7983A /* MMDrawerControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMDrawerControllerTests.m; sourceTree = "<group>"; };
 		44ABB4771843EA1C00B7983A /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerBarButtonItem.h; path = ../../ext/MMDrawerController/MMDrawerController/MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
 		44ABB4781843EA1C00B7983A /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerBarButtonItem.m; path = ../../ext/MMDrawerController/MMDrawerController/MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
 		44ABB4791843EA1C00B7983A /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerController.h; path = ../../ext/MMDrawerController/MMDrawerController/MMDrawerController.h; sourceTree = "<group>"; };
@@ -104,7 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				44ABB4521843E9DE00B7983A /* MMDrawerController */,
-				44ABB4661843E9DE00B7983A /* MMDrawerControllerTests */,
 				44ABB44F1843E9DE00B7983A /* Frameworks */,
 				44ABB44E1843E9DE00B7983A /* Products */,
 			);
@@ -150,24 +144,6 @@
 			isa = PBXGroup;
 			children = (
 				44ABB4541843E9DE00B7983A /* MMDrawerController-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		44ABB4661843E9DE00B7983A /* MMDrawerControllerTests */ = {
-			isa = PBXGroup;
-			children = (
-				44ABB46C1843E9DE00B7983A /* MMDrawerControllerTests.m */,
-				44ABB4671843E9DE00B7983A /* Supporting Files */,
-			);
-			path = MMDrawerControllerTests;
-			sourceTree = "<group>";
-		};
-		44ABB4671843E9DE00B7983A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				44ABB4681843E9DE00B7983A /* MMDrawerControllerTests-Info.plist */,
-				44ABB4691843E9DE00B7983A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -243,7 +219,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44ABB46B1843E9DE00B7983A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44ABB46D1843E9DE00B7983A /* MMDrawerControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,17 +268,6 @@
 			targetProxy = 44ABB4631843E9DE00B7983A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		44ABB4691843E9DE00B7983A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				44ABB46A1843E9DE00B7983A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		44ABB46E1843E9DE00B7983A /* Debug */ = {
