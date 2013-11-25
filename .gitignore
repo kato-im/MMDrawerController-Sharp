@@ -1,9 +1,13 @@
 .DS_Store
 xcuserdata
 build
+bin
+obj
 
 *.a
 *.swp
 *.swo
 *.suo
 *.swn
+*.dll
+*.mbd
