@@ -2,6 +2,7 @@
 xcuserdata
 build
 
+*.a
 *.swp
 *.swo
 *.suo
