@@ -1,0 +1,8 @@
+.DS_Store
+xcuserdata
+build
+
+*.swp
+*.swo
+*.suo
+*.swn

@@ -1,0 +1,3 @@
+[submodule "ext/MMDrawerController"]
+	path = ext/MMDrawerController
+	url = https://github.com/mutualmobile/MMDrawerController.git
