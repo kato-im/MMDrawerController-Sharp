@@ -4,23 +4,22 @@
 #PROJECT=$(PROJECT_ROOT)/XMBindingLibrarySample.xcodeproj
 #TARGET=XMBindingLibrarySample
 #BTOUCH=/Developer/MonoTouch/usr/bin/btouch
-PROJECT_ROOT=MMDrawerController
-PROJECT=$(PROJECT_ROOT)/MMDrawerController.xcodeproj
+PROJECT=MMDrawerController.xcodeproj
 TARGET=MMDrawerController
 
 all: libMMDrawerController.a
 
 libMMDrawerController-i386.a:
 	xcodebuild -project $(PROJECT) -target $(TARGET) -sdk iphonesimulator -configuration Release clean build
-	-mv $(PROJECT_ROOT)/build/Release-iphonesimulator/lib$(TARGET).a $@
+	-mv build/Release-iphonesimulator/lib$(TARGET).a $@
 
 libMMDrawerController-armv6.a:
 	xcodebuild -project $(PROJECT) -target $(TARGET) -sdk iphoneos -arch armv6 -configuration Release clean build
-	-mv $(PROJECT_ROOT)/build/Release-iphoneos/lib$(TARGET).a $@
+	-mv build/Release-iphoneos/lib$(TARGET).a $@
 
 libMMDrawerController-armv7.a:
 	xcodebuild -project $(PROJECT) -target $(TARGET) -sdk iphoneos -arch armv7 -configuration Release clean build
-	-mv $(PROJECT_ROOT)/build/Release-iphoneos/lib$(TARGET).a $@
+	-mv build/Release-iphoneos/lib$(TARGET).a $@
 
 libMMDrawerController.a: libMMDrawerController-armv7.a libMMDrawerController-i386.a
 	lipo -create -output $@ $^
