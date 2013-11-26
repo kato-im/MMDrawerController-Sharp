@@ -53,5 +53,6 @@
     <Compile Include="libMMDrawerController.linkwith.cs">
       <DependentUpon>libMMDrawerController.a</DependentUpon>
     </Compile>
+    <Compile Include="UIViewControllerExtensions.cs" />
   </ItemGroup>
 </Project>

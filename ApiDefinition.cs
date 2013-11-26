@@ -5,11 +5,8 @@ using MonoTouch.UIKit;
 namespace MMDrawerControllerSharp
 {
 	[BaseType (typeof(UIViewController))]
-	interface MMDrawerController
+	public interface MMDrawerController
 	{
-		[Export("initWithCenterViewController:")]
-		IntPtr Constructor(UIViewController centerViewController);
-
 		[Export("initWithCenterViewController:leftDrawerViewController:")]
 		IntPtr Constructor(UIViewController centerViewController, UIViewController leftDrawerViewController);
 
