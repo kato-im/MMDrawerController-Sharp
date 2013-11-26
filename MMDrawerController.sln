@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMDrawerController-Sharp", "MMDrawerController-Sharp.csproj", "{109AD4A6-5F75-4070-B557-BDF8CAD21532}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMDrawerController", "MMDrawerController.csproj", "{109AD4A6-5F75-4070-B557-BDF8CAD21532}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +33,6 @@ Global
 		{109AD4A6-5F75-4070-B557-BDF8CAD21532}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = MMDrawerController-Sharp.csproj
+		StartupItem = MMDrawerController.csproj
 	EndGlobalSection
 EndGlobal

@@ -1,6 +1,6 @@
 using System;
 
-namespace MMDrawerControllerSharp
+namespace MMDrawerController
 {
 	public enum MMDrawerSide
 	{

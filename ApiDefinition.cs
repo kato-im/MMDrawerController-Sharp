@@ -2,10 +2,10 @@ using System;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 
-namespace MMDrawerControllerSharp
+namespace MMDrawerController
 {
-	[BaseType (typeof(UIViewController))]
-	public interface MMDrawerController
+	[BaseType (typeof(UIViewController), Name = "MMDrawerController")]
+	public interface DrawerController
 	{
 		[Export("initWithCenterViewController:leftDrawerViewController:rightDrawerViewController:")]
 		IntPtr Constructor(UIViewController centerViewController,

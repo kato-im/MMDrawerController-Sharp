@@ -1,19 +1,19 @@
 using System;
 using MonoTouch.UIKit;
 
-namespace MMDrawerControllerSharp
+namespace MMDrawerController
 {
 	public static class UIViewControllerExtensions
 	{
-		public static MMDrawerController GetDrawerController(this UIViewController controller)
+		public static DrawerController GetDrawerController(this UIViewController controller)
 		{
 			var parent = controller.ParentViewController;
-			while (parent != null && !(parent is MMDrawerController))
+			while (parent != null && !(parent is DrawerController))
 			{
 				parent = parent.ParentViewController;
 			}
 
-			return parent as MMDrawerController;
+			return parent as DrawerController;
 		}
 	}
 }
